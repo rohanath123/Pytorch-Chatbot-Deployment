@@ -1,0 +1,14 @@
+<h2>Welcome to Hue: An (okay-ish) PyTorch Deep Learning Enabled Chatbot! Please enter your input below:</h2>
+<form action="" method="post">
+	<p>
+	{{form.input.label}}<br>
+	{{form.input(size=100)}}
+</p>{{form.submit()}}
+</form>
+
+<p>Bot: {{result}}</p>
+
+
+
+{% block content %}
+{% endblock %}

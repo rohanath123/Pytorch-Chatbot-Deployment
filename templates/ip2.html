@@ -1,0 +1,24 @@
+<h1>Welcome to Hue: A (slightly dramatic!) PyTorch Deep Learning Enabled Chatbot! </h1>
+<h3>Feel free to chat with the bot and send me your conversations! There are a few rules though:</h3>
+<h>1. Try to avoid proper nouns.</h><br>
+<h>2. Only English please!</h><br>
+<h>3. Because model has been trained on a small dataset consisting of dramatic movie conversations, expect dramatic and informal responses.</h><br>
+<h>4. Have fun!</h><br>
+
+<h2>Please enter your input below:</h2>
+<br>
+<form action="" method="post">
+	<p align='center'>
+     <font size="5">{{form.input(size=100)}}</font> <br><br>
+    {{form.submit()}}<br><br><br>
+    </p>
+  
+</form>
+<p align='center'>
+  <font size="5">Bot: {{result}}</font> 
+</p>
+
+ 
+
+{% block content %}
+{% endblock %}
